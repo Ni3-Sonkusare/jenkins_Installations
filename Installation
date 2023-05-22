@@ -16,7 +16,6 @@ agent any
 		{
 			steps {
 				sh 'sudo echo "Welcome to Young Minds. Keep Learning!! Keep Growing!!" > index.html'
-				sh 'sudo echo " My Name is Nitin " > index.html'
 				sh 'sudo mv index.html /var/www/html/index.html'
 
 			}
